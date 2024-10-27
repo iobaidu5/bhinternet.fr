@@ -1,0 +1,601 @@
+<!doctype html>
+<html>
+  <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/img/fav.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flat-icons@1.0.0/creative.min.css">
+      <!-- Include jQuery and Lightbox2 CSS and JS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/js/popper.min.js"></script>
+  <script defer src="./assets/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+
+  <title></title>
+<meta property="og:title" content="" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="description" content="" />
+<meta property="og:description" content="" />
+<meta name="keywords" content="devis" />
+<link rel="canonical" href="http://localhost:4000/devis" />
+<meta property="og:url" content="http://localhost:4000/devis" />
+<meta property="og:site_name" content="" />
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"url":"http://localhost:4000/devis",
+"description":"",
+"name":""
+}
+</script>
+
+</head>
+  <body>
+    <section class="Navbar navbar-main fixedNav section py-0 to-hide-990">
+  <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
+    <div class="container to-100-per-990">
+      <div class="row justify-content-between w-100 align-items-center align-to-center-990">
+        <div class="col-md-4">
+          <div class="Navbar_image">
+            <a href="./index.html" title="Accueil"
+              ><img
+                loading="lazy"
+                loading="lazy"
+                src="./assets/img/bhinternet-logo.png"
+                class="img-responsive Navbar_image-img"
+                alt="bhinternet-logo"
+            /></a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <button
+            class="navbar-toggler Navbar_toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i
+              class="fas fa-bars toggle-button Navbar_toggler-icon"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <div
+            class="collapse navbar-collapse Navbar_nav-collapse ml-auto"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav Navbar_nav w-100 ml-auto">
+              <li class="nav-item Navbar_nav-item">
+                <a
+                  class="nav-link Navbar_nav-link"
+                  title="Accueil"
+                  href="./index.html"
+                >
+                  Accueil</a
+                >
+              </li>
+              <li class="nav-item Navbar_nav-item">
+                <a
+                  class="nav-link Navbar_nav-link"
+                  title="Nos services"
+                  href="./nos-services.html"
+                >
+                Nos services</a
+                >
+              </li>
+              <li class="nav-item Navbar_nav-item">
+                <a
+                  class="nav-link Navbar_nav-link"
+                  title="Notre entreprise"
+                  href="./notre-entreprise.html"
+                >
+                Notre entreprise</a
+                >
+              </li>
+              <li class="nav-item Navbar_nav-item">
+                <a
+                  class="nav-link Navbar_nav-link"
+                  title="Contactez-nous"
+                  href="./contact.html"
+                >
+                Contactez-nous</a
+                >
+              </li>
+              <li class="Navbar_nav-item">
+                <a
+                  class="nav-link Navbar_nav-btn"
+                  title="Devis"
+                  href="./devis.html"
+                  >Devis en ligne
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<section class="Navbar navbar-main fixedNav section py-0 to-show-990">
+  <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
+    <div class="container">
+      <div class="Navbar_image">
+        <a href="./index.html" title="Accueil"
+          ><img
+            loading="lazy"
+            loading="lazy"
+            src="./assets/img/bhinternet-logo.png"
+            class="Navbar_image-img"
+            alt="Logo baies et vérandas"
+        /></a>
+      </div>
+      <button
+        class="navbar-toggler Navbar_toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i
+          class="fas fa-bars toggle-button Navbar_toggler-icon"
+          aria-hidden="true"
+        ></i>
+      </button>
+      <div
+        class="collapse navbar-collapse Navbar_nav-collapse ml-auto"
+        id="navbarNav"
+      >
+      <ul class="navbar-nav Navbar_nav w-100 ml-auto">
+        <li class="nav-item Navbar_nav-item">
+          <a
+            class="nav-link Navbar_nav-link"
+            title="Accueil"
+            href="./index.html"
+          >
+            Accueil</a
+          >
+        </li>
+        <li class="nav-item Navbar_nav-item">
+          <a
+            class="nav-link Navbar_nav-link"
+            title="Nos services"
+            href="./nos-services.html"
+          >
+          Nos services</a
+          >
+        </li>
+        <li class="nav-item Navbar_nav-item">
+          <a
+            class="nav-link Navbar_nav-link"
+            title="Notre entreprise"
+            href="./notre-entreprise.html"
+          >
+          Notre entreprise</a
+          >
+        </li>
+        <li class="nav-item Navbar_nav-item">
+          <a
+            class="nav-link Navbar_nav-link"
+            title="Contactez-nous"
+            href="./contact.html"
+          >
+          Contactez-nous</a
+          >
+        </li>
+        <li class="Navbar_nav-item">
+          <a
+            class="nav-link Navbar_nav-btn"
+            title="Devis"
+            href="./devis.html"
+            >Devis en ligne
+          </a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+
+    
+
+    <div class="">
+        <div class="banner">
+  <div class="container">
+    <div class="banner_content">
+      <div class="page-title-content">
+        <h1>Devis en ligne</h1>
+        <ul>
+          <li><a href="./index.html">Accueil</a></li>
+          <li>Devis en ligne</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="contact section-padding">
+  <div class="container">
+    <div class="services_header">
+      <p class="services_header-p">Obtenir un prix</p>
+      <h2 class="services_header-title">Devis en ligne</h2>
+    </div>
+    <div class="row align-items-center mt-4">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="contact-form">
+          <p class="form-message"></p>
+          <form class="form contact_content-form" id="devisForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
+            <input type="hidden" name="lang" value="fr" />
+            <input type="hidden" name="type" value="devis" />
+            <input type="hidden" name="firstName" value="" />
+            <input type="hidden" name="redirectUrl" value="/message-envoye" />
+            <input type="hidden" name="key" value="" />
+            <input type="hidden" name="website" value="" />
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    required=""
+                    placeholder="Votre nom"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="entreprise"
+                    id="entreprise"
+                    class="form-control"
+                    required=""
+                    placeholder="Votre entreprise"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="ville"
+                    id="ville"
+                    class="form-control"
+                    required=""
+                    placeholder="Votre Ville"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    required=""
+                    placeholder="Votre Email"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    required=""
+                    class="form-control"
+                    placeholder="Votre téléphone"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    required=""
+                    class="form-control"
+                    placeholder="Votre téléphone"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <select class="form-control">
+                    <option value="Sujet" selected disabled>Votre projet</option>
+                    <option value="Logiciel">
+                      Logiciel
+                    </option>
+                    <option value="IA">IA</option>
+                    <option value="Expertise IT">Expertise IT</option>
+                    <option value="Site sur mesure">Site sur mesure</option>
+                    <option value="Application mobile">Application mobile</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    cols="30"
+                    rows="6"
+                    required=""
+                    placeholder="Votre message"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="checkbox d-flex mb-5">
+                  <input name="condition" type="checkbox"
+                    style="height:20px; width:20px; vertical-align: middle; margin-right: 10px;" />
+                  <span class="contact_content-form--label" style="font-size: 14px; color: #000;">
+                    En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                    de vos données par ce site * </span>
+                  <i class="fa fa-info-square" aria-hidden="true"></i>
+                </div>
+                <div class="form-group d-flex justify-content-center">
+                  <div class="g-recaptcha" data-sitekey=""></div>
+                  <br />
+                  <div id="devis-form-response"></div>
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-md-12">
+                <button type="submit" class="default-btn submit-btn">
+                  Envoyer <span></span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact-info-wrapper bg-grey">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="services_header">
+          <p class="services_header-p">Nous trouver</p>
+          <h2 class="services_header-title">Coordonnées</h2>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-info-content">
+          <h5>Bureau Parisien</h5>
+          <p class="services_card-p">
+            7 avenue de l’Orme à Martin 91080 Courcouronnes
+          </p>
+          <a href="tel:01 64 57 40 43"
+            >01 64 57 40 43</a
+          >
+          <a href="mailto:contact@bhgroupe.fr"
+            >contact@bhgroupe.fr</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mapswrapper">
+  <iframe
+    width="100%"
+    height="400"
+    loading="lazy"
+    allowfullscreen
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=BHinternet&zoom=15&maptype=roadmap"
+  ></iframe
+  ><a href="https://www.taxuni.com/i9-form/">I9 Form</a
+  ><style>
+    .mapswrapper {
+      background: #fff;
+      position: relative;
+    }
+    .mapswrapper iframe {
+      border: 0;
+      position: relative;
+      z-index: 2;
+    }
+    .mapswrapper a {
+      color: rgba(0, 0, 0, 0);
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+    }
+  </style>
+</div>
+
+    </div>
+    <div class="fixphone">
+      <a href="tel:01 64 57 40 43" title="01 64 57 40 43" class="button one phoneone"><i
+          class="fas fa-phone-alt"></i> &nbsp;01 64 57 40 43</a>
+    </div>
+
+    <footer class="footer">
+		<div class="subscribe-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="subscribe-content">
+							<h2>Inscrivez-vous à notre Newslette</h2>
+							<p>Chaque mois, BHInternet vous propose une newsletter riche en informations pour rester à la pointe des innovations technologiques. Profitez de conseils d'experts, de tendances du secteur et d'astuces pratiques pour optimiser la transformation digitale de votre entreprise. Ne manquez pas cette ressource précieuse !</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<form class="newsletter-form">
+							<input type="email" class="input-newsletter" name="email" placeholder="Renseignez votre adresse email" required="" autocomplete="off">
+							<button type="submit">Je m’inscris</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Subscribe Section -->
+		<!-- Start Footer Section -->
+		<div class="footer-area ptb-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<a class="footer-logo" href="#">
+								<img src="./assets/img/bhinternet-logo.png" class="white-logo" alt="logo">
+							</a>
+							<p>Nous accompagnons nos clients dans leur transformation numérique en
+                                développant des logiciels personnalisés, des applications mobiles intuitives, et des
+                                sites web adaptés à leurs besoins spécifiques.</p>
+							<!-- <ul class="footer-social">
+								<li>
+									<a href="#"> <i class="fab fa-facebook-f"></i></a>
+								</li>
+								<li>
+									<a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"> <i class="fab fa-youtube"></i></a>
+								</li>
+								<li>
+									<a href="#"> <i class="fab fa-linkedin"></i></a>
+								</li>
+							</ul> -->
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>Nos services</h3>
+							</div>
+							<ul class="footer-quick-links">
+								<li><a href="#">Solutions pour les entreprises</a></li>
+								<li><a href="#">Développement web</a></li>
+								<li><a href="#">Intégration de l’IA</a></li>
+								<li><a href="#">Développement d’applications</a></li>
+								<li><a href="#">Optimisation SEO</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>Liens utiles</h3>
+							</div>
+							<ul class="footer-quick-links">
+								<li><a href="./notre-entreprise.html">À propos de nous</a></li>
+								<li><a href="./nos-services.html">Nos services</a></li>
+								<li><a href="./contact.html">Contactez-nous</a></li>
+								<li><a href="./devis.html">Devis en ligne</a></li>
+								<li><a href="">Mentions légales</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>Nos coordonnées</h3>
+							</div>
+							<div class="footer-info-contact">
+								<i class="fas fa-phone-alt"></i>
+								<h3>Phone</h3>
+								<span><a href="tel:01 64 57 40 43">01 64 57 40 43</a></span>
+							</div>
+							<div class="footer-info-contact">
+								<i class="fas fa-envelope"></i>
+								<h3>Email</h3>
+								<span><a href="mailto:contact@bhgroupe.fr">contact@bhgroupe.fr</a></span>
+							</div>
+							<div class="footer-info-contact">
+								<i class="fas fa-map-marker-alt"></i>
+								<h3>Address</h3>
+								<span>7 avenue de l’Orme à Martin, 91080 Courcouronnes</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Footer Section -->
+</footer>
+
+<div class="copyright-area">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-6">
+				<p><i class="fas fa-copyright"></i> 2024 BHinternet - All Rights Reserved.</p>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<ul>
+					<li><a href="">Terms &amp; Conditions</a></li>
+					<li><a href="">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/formSubmit.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <a href="#" id="fixphone" title="Up"><i class="fa fa-chevron-up"></i></a>
+  </body>
+</html>
